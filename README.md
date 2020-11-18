@@ -53,7 +53,7 @@ So our state object will have two top-level keys, each pointing to an array. For
 now, let's write a single reducer to manage both of these resources.
 
 ```javascript
-export default function bookApp(
+export default function bookApp( 
   state = {
     authors: [],
     books: []
